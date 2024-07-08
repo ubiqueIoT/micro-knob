@@ -4,7 +4,7 @@ As it turns out [EC11 rotary encoders](https://amzn.to/3XUyDMp) fit nicely over 
 
 ![IMG_2255](https://github.com/ubiqueIoT/micro-knob/assets/8181497/a57dd787-c7b7-494f-a67b-3adaee568df1)
 
-### Notes on assembly
+## Notes on assembly
 
 Some tabs need to be clipped off from the stock encoder as shown in the image below. It is okay if the metal housing of the encoder makes contact the shield of the XIAO module as both metal components should be connected to common ground by default.
 
@@ -12,7 +12,7 @@ Take care to not use too much solder when connecting the encoder pins. Excess so
 
 ![cut-diagram](https://github.com/ubiqueIoT/micro-knob/assets/8181497/4f2fc80c-3918-4185-997e-c5d8938018f9)
 
-### Notes on software
+## Notes on software
 
 The sample code provided moves the mouse around in varying sized steps. The step size is adjusted by turning the encoder, and the movement is toggled on and off with the encoder switch.
 
@@ -42,13 +42,13 @@ void setup() {
 
 ![microknob-wiring](https://github.com/ubiqueIoT/micro-knob/assets/8181497/931c4eb2-2892-4832-ba5a-f77bcdad81e2)
 
-### Case details
+## Case details
 
 A small 3D printable case is provided in the STLs folder. It is shown here below. The top section of the case might benifit from supports for the encoder nut cutout. The case is designed for use with [self tapping M2.5 screws](https://amzn.to/4cnJL8Z).
 
 ![CAD](https://github.com/ubiqueIoT/micro-knob/assets/8181497/074c6395-331a-4b22-bcc1-280e7dce159e)
 
-### Full parts list
+## Full parts list
 
 | Part  | Quantity |
 | ------ | ---- |
