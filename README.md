@@ -23,6 +23,8 @@ This example can easily be adapted for additional use cases such as scrolling, z
 The key is to configure the pins that connect to the encoder's common (GND) pins as digital output low so that switch and encoder work as usual.
 
 ```cpp
+#include <Encoder.h>
+
 #define SW_GND 5
 #define SW_PIN 3
 
@@ -30,15 +32,16 @@ The key is to configure the pins that connect to the encoder's common (GND) pins
 #define ROT_GND 9
 #define ROT_A 8
 
+Encoder encoder(ROT_A, ROT_B);
+
 void setup() {
   pinMode(SW_GND, OUTPUT);
   pinMode(ROT_GND, OUTPUT);
-  pinMode(LED_PIN, OUTPUT);
-
-  pinMode(SW_PIN, INPUT_PULLUP);
 
   digitalWrite(ROT_GND, LOW);
   digitalWrite(SW_GND, LOW);
+
+  pinMode(SW_PIN, INPUT_PULLUP);
 }
 ```
 
