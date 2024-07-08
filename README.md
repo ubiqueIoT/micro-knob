@@ -2,7 +2,9 @@
 
 As it turns out [EC11 rotary encoders](https://amzn.to/3XUyDMp) fit nicely over a [Seeed XIAO](https://amzn.to/4bCtcoG) form factor module. This could prove to be useful as an extremely minimal macropad.
 
-![IMG_2255](https://github.com/ubiqueIoT/micro-knob/assets/8181497/a57dd787-c7b7-494f-a67b-3adaee568df1)
+![microknob](https://github.com/ubiqueIoT/micro-knob/assets/8181497/a57dd787-c7b7-494f-a67b-3adaee568df1)
+
+![microknob with case](https://github.com/ubiqueIoT/micro-knob/assets/8181497/d6e93acc-b790-44e1-8ceb-07ac91b1a281)
 
 ## Notes on assembly
 
